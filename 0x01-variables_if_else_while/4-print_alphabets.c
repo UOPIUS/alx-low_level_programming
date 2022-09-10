@@ -11,13 +11,10 @@ int main(void)
 
 	while (ch <= 'z')
 	{
+		if(ch == 'q' || ch == 'e')
+			continue;
 		putchar(ch);
 		ch++;
-	}
-	while (ch2 <= 'Z')
-	{
-		putchar(ch2);
-		ch2++;
 	}
 	putchar('\n');
 	return (0);
