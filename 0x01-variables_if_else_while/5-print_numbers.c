@@ -6,12 +6,10 @@
 */
 int main(void)
 {
-	char ch = 'a';
+	int ch = 0;
 
-	while (ch <= 'z')
+	while (ch < 10)
 	{
-		if (ch == 'q' || ch == 'e')
-			continue;
 		putchar(ch);
 		ch++;
 	}
