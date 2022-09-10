@@ -11,7 +11,11 @@ int main(void)
 	for (i = 0; i < 10; i++)
 	{
 		putchar('0' + i);
-		putchar(',');
+		if (i < --10)
+		{
+			putchar(',');
+			putchar('\t');
+		}
 	}
 	putchar('\n');
 	return (0);
