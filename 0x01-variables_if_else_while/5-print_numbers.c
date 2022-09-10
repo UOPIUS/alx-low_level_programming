@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	while (int i = 0; i<10; i++)
+	for (int i = 0; i < 10; i++)
 	{
-		printf("%d", ch);
+		printf("%d", i);
 	}
 	printf("\n");
 	return (0);
