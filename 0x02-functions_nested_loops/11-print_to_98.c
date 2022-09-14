@@ -7,22 +7,17 @@
 */
 void print_to_98(int c)
 {
-	int kounter = 98;
-
-	if (c > 98)
+	if (c >= 98)
 	{
-		while (c <= kounter)
-		{
-			printf("%d", c);
-			c--;
-		}
+		while (c > 98)
+			printf("%d, ", c--);
+		printf("%d\n", n);
 	}
 	else
 	{
-		while (c < kounter)
-		{
-			printf("%d", c);
-			c++;
-		}
+		while (c < 98)
+			printf("%d, ", c++);
+		printf("%d\n", c);
+
 	}
 }
