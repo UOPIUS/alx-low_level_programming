@@ -1,20 +1,20 @@
 #include "main.h"
 /**
  * print_diagonal - prints a diagonal line according to the number given
- * @len: length of expected line
+ * @n: length of expected line
  */
-void print_diagonal(int len)
+void print_diagonal(int n)
 {
 	int i, j;
 
-	if (len > 0)
+	if (n > 0)
 	{
-		for (i = 1; i <= len; i++)
+		for (i = 1; i <= n; i++)
 		{
 			j = 1;
 			while (j < i)
 			{
-				putchar(32);
+				putchar(' ');
 				j++;
 			}
 			putchar(92);
