@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* _isupper - entry point of the program
+* _isdigit - entry point of the program
 * @d: integer
 * Return: integer
 */
-int _isupper(int d)
+int _isdigit(int d)
 {
 	if (d >= 48 && d <= 57)
 		return (1);
