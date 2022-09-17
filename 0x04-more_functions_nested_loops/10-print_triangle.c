@@ -14,9 +14,9 @@ for (i = 1; i < 100; i++)
 for (j = 0; j < size; j++)
 {
 if (j < n)
-_putchar(35);
+_putchar(' ');
 else
-_putchar(32);
+_putchar('#');
 }
 n--;
 _putchar('\n');
