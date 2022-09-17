@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - print numbers
-* Return: 0
+* Return: integer
 */
 int main(void)
 {
@@ -16,7 +16,7 @@ printf("Fizz ");
 else if (i % 5 == 0)
 printf("Buzz ");
 else
-printf("%d", i);
+printf("%d ", i);
 }
 printf("Buzz\n");
 return (0);
