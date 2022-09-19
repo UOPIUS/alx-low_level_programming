@@ -3,8 +3,7 @@
 /**
 * _strlen - swaps the values of two integers.
 * and updates the value it points to to 98
-* @a: int
-* @b: int
+* @s: characters
 */
 
 int _strlen(char *s)
