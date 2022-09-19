@@ -8,5 +8,5 @@
 
 void reset_to_98(int *n)
 {
-printf("Inside reset_to_98, n%d:",n);
+*n = 98;
 }
