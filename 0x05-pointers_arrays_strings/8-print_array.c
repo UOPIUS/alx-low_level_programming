@@ -17,7 +17,7 @@ while (i < n)
 {
 printf("%d", a[i]);
 i++;
-if (i < n)
+if (i < a[n - 1])
 _putchar(',');
 _putchar(' ');
 }
