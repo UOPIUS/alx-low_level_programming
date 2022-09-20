@@ -16,10 +16,11 @@ i = 0;
 while (i < n)
 {
 printf("%d", a[i]);
-i++;
-if (i < a[n - 1])
+if (i <= n - 2){
 _putchar(',');
 _putchar(' ');
+}
+i++;
 }
 _putchar('\n');
 }
