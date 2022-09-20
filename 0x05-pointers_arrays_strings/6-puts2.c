@@ -12,6 +12,7 @@ int i, n = 0;
 while (str[n] != '\0')
 n++;
 for (i = 0; i < n; i++)
+if (i % 2 != 0)
 _putchar(str[i]);
 _putchar('\n');
 }
