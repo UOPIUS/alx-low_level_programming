@@ -9,9 +9,10 @@
 
 void print_rev(char *s)
 {
-int n, i;
-n = strlen(s);
-while (i >= n)
+int i;
+
+i = strlen(s);
+while (i >= 0)
 {
 _putchar(s[i]);
 i--;
