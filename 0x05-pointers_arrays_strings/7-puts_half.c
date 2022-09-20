@@ -14,7 +14,7 @@ n++;
 if (n > 0)
 {
 half = n / 2;
-if (n % 2 != 0)
+if (n % 2 == 0)
 i = half;
 else
 i = half + 1;
