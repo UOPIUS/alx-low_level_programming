@@ -14,7 +14,7 @@ n++;
 if(n > 0){
 half = n / 2;
 for (i = half; i <= n; i++)
-_putchar(i+'0');
+_putchar(i);
 }
 _putchar('\n');
 }
