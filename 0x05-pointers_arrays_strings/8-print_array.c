@@ -18,6 +18,8 @@ while (i < n)
 printf("%d", a[i]);
 i++;
 if (i < n)
-putchar(',');
+_putchar(',');
+_putchar(' ');
 }
+_putchar('\n');
 }
