@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
-* *string_toupper - Converts letters to uppercase
+* string_toupper - Converts letters to uppercase
 * @s: characters
 * Return: string
 */
-
 char *string_toupper(char *s)
 {
 	int i = 0;
 
-	while (s != '\0')
+	while (x[i])
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = s[i] - 32;
+		if (x[i] >= '97' && x[i] <= 122)
+			x[i] = x[i] - 32;
 		i++;
 	}
-	return (s);
+	return (x);
 }
