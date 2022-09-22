@@ -18,6 +18,5 @@ int _strcmp(char *s1, char *s2)
 		s1++, s2++;
 	}
 	ascii_difference = *(unsigned char *)s1 - *(unsigned char *)s2;
-	printf("difference: %d", ascii_difference);
 	return (ascii_difference);
 }
