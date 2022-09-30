@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print a program's own name
+ * main - print program name
  * @argc: argument counter
  * @argv: list of argument
- * Result: integer
+ * Return: 0
  */
 
-int main(argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n",*argv);
+	printf("%s\n", *argv);
 	return (0);
 }
