@@ -7,9 +7,9 @@
  * @argv: array of parameters
  * Return: 0
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
-	int cents, i, change;
+	int cents, i, change = 0;
 	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
