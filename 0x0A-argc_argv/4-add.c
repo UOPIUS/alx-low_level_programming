@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i, n, j, sum = 0;
+	int i, n, k, j, sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -24,7 +24,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	for (k = 1; k < argc; k++)
 	{
 		n = atoi(argv[k]);
-		result += n;
+		sum += n;
 	}
 	printf("%d\n", sum);
 	return (0);
