@@ -25,9 +25,9 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 0; i < argc; i++)
+	for (j = 0; j < 5 && cents >= 0; j++)
 	{
-		while (cents >= coins[i])
+		while (cents >= coins[j])
 		{
 			cents -= coins[j];
 			change++;
