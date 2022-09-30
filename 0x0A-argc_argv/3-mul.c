@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - prints multiply 2 numbers
  * @argc: argc param
