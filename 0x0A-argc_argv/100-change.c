@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * main - do change for cents
- * @argc: argc param
- * @argv: array of parameters
+ * main - print out number of change
+ * @argc: argument counter
+ * @argv: array of argument
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	int cents, i, j, change = 0;
+	int num, j, result = 0;
 	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -18,21 +18,20 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	cents = atoi(argv[1]);
-	if (cents < 0)
+	num = atoi(argv[1]);
+	if (num < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
-
-	for (j = 0; j < 5 && cents >= 0; j++)
+	for (j = 0; j < 5 && num >= 0; j++)
 	{
-		while (cents >= coins[j])
+		while (num >= coins[j])
 		{
-			cents -= coins[j];
-			change++;
+			num -= coins[j];
+			result++;
 		}
 	}
-	printf("%d\n", change);
+	printf("%d\n", result);
 	return (0);
 }
