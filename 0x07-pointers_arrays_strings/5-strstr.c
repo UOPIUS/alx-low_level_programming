@@ -9,18 +9,13 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *temp_haystack;
-	char *temp_needle;
-	while (*haystack != '\0')
-	{
-		while (*temp_haystack == *temp_needle && *temp_needle != '\0')
-		{
-			temp_haystack++;
-			temp_needle++;
-		}
-		if (*temp_needle == '\0')
-			return (haystack);
-		*haystack++;
-	}
-	return (0);
+	const char* p1;
+	const char* p2;
+	const char * p1_advance;
+
+	if (!*needle) return (haystack);
+	for (p2 = &needle[1]; *p2; ++p2)
+		p1_advance++;
+	for (p1 = haystack; *p1_advance;
+	return NULL;
 }
