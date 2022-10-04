@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * *_str_concat - concats two strings together
- * the duplicate string
+ * *str_concat - concats two strings together the duplicate string
  * @s1: character string
  * @s2: character string
  * Return: pointer or null
@@ -17,7 +16,7 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for(i = 0; s1[i] || s2[i]; i++)
+	for (i = 0; s1[i] || s2[i]; i++)
 		stringlen++;
 	ptr = (char *) malloc(stringlen * sizeof(char));
 	if (ptr == NULL)
