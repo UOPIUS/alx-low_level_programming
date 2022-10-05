@@ -24,7 +24,6 @@ char *argstostr(int ac, char **av)
 		}
 		kounter = kounter + 1;
 	}
-	kounter++;
 	ptr = (char *) malloc(sizeof(char) * kounter);
 	for (i = 0; i < ac; i++)
 	{
