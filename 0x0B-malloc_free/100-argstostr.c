@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * argstostr - concats all the arguments of a program
