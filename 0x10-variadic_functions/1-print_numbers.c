@@ -20,6 +20,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			if (k < n - 1)
 				printf("%s", separator);
 		}
-		putchar('\n');
 	}
+	printf("\n");
 }
