@@ -13,11 +13,11 @@ int sum_them_all(const unsigned int n, ...)
 	va_list pointer;
 
 	if (n == 0)
-		return(0);
+		return (0);
 
 	va_start(pointer, n);
 	for (k = 0; k < n; k++)
 		sum += va_arg(pointer, int);
 	va_end(pointer);
-	return(sum);
+	return (sum);
 }
