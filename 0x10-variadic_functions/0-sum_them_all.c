@@ -9,7 +9,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int k = 0; sum = 0;
+	int k = 0, sum = 0;
 	va_list pointer;
 
 	if (n == 0)
