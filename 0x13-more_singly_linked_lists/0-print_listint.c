@@ -1,3 +1,5 @@
+#include "lists.h"
+
 /**
  * print_listint - prints and return all the elements of a listint_t list
  * @h: struct list items
