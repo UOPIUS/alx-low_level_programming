@@ -8,7 +8,7 @@
 */
 int pop_listint(listint_t **head)
 {
-	const listint_t *temp = NULL;
+	listint_t *temp = NULL;
 	int data = 0;
 
 	if (*head == NULL)
