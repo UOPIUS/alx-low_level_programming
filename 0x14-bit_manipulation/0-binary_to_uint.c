@@ -15,14 +15,14 @@ int stlen(const char *c)
 }
 
 /**
- * binary_to_uint - converts a binary to decimal
- * @b: string
- * Return: integer
- */
+* binary_to_uint - converts a binary to decimal
+* @b: string
+* Return: integer
+*/
 unsigned int binary_to_uint(const char *b)
 {
 	int i, dec, next = 0;
-	
+
 	i = stlen(b) - 1;
 	for (dec = 0; i >=0; --i, ++next)
 	{
