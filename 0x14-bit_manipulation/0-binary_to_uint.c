@@ -9,7 +9,7 @@ int stlen(const char *c)
 {
 	int l = 0;
 
-	while (c[i] != '\0)
+	while (c[l] != '\0')
 		l++;
 	return (l);
 }
